@@ -1,4 +1,4 @@
-package arrays;
+
 
 public class linearsearch {
     public static void search( int number[] , int key){
