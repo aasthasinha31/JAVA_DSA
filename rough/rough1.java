@@ -1,21 +1,17 @@
 package rough;
 
-public class rough1 { 
-    public static void printnum(int n){
-       if(n == 1){
-        System.out.println(n);
-        return;
-       }
-      
-       printnum(n-1);
-        System.out.println(n + " ");
-     }
+public class rough1 {
+    public static int pair(int n){
+        if(n == 1 || n ==2){
+            return n;
+        }
+
+
+        
+        return pair(n-1) + pair(n-1) * pair(n-2);
+    }
     public static void main(String[] args) {
-        int n = 50;
-        printnum(n);
+        System.out.println(pair(3));
     }
     
 }
-
-    
-
