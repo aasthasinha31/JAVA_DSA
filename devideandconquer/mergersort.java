@@ -1,4 +1,4 @@
-package devideandconquer;
+
 
 public class mergersort {
      public static void sorting(int array[] , int si , int ei){
@@ -21,8 +21,8 @@ public class mergersort {
     public static void merge( int array[] ,int si , int mid, int ei ){
        int temp[] = new int[ei-si+1];
        int i = si; //for lrft
-       int j = mid+1;// for right
-       int k = 0;// for temp
+       int j = mid+1; // for right
+       int k = 0; // for temp
 
        while( i <= mid && j <= ei ){
           if(array[i]< array[j]){
