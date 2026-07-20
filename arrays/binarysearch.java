@@ -20,8 +20,8 @@ public class binarysearch {
          System.out.println("NOT FOUND");
     }
     public static void main(String[] args) {
-         int numbers[]= {1,3 ,6, 8, 9,10,17,34 };
-         Scanner sc = new Scanner(System.in);
+        int numbers[]= {1,3 ,6, 8, 9,10,17,34 };
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter key: ");
         int key = sc.nextInt();

@@ -13,7 +13,7 @@ public class pairing {
         return totalways;
     }
     public static void main(String[] args) {
-        System.out.println(pair(3));
+        System.out.println(pair(4));
     }
     
 }
