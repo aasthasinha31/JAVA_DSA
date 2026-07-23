@@ -16,7 +16,7 @@ public class permutation {
         
     }
     public static void main(String[] args) {
-        String str = "abc";
+        String str = "abcde";
         permutations(str, "");
     }
     
