@@ -1,6 +1,7 @@
 package linkedlist;
 
-public class addinmid {class Node{
+public class addinmid {
+    class Node{
 
         int data ;
         Node next;
@@ -74,12 +75,12 @@ public class addinmid {class Node{
     public static void main(String[] args) {
         addinmid LL = new addinmid();
         LL.addfirst(1);
-         LL.print();
+         
         LL.addfirst(5);
         
-         LL.print();
+         
         LL.addlast(9);
-         LL.print();
+         
 
          LL.addmid(2,3);
           LL.print();
